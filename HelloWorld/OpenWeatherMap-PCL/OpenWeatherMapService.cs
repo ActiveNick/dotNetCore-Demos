@@ -27,15 +27,23 @@ namespace OpenWeatherMap
         /// <returns></returns>
         public async Task<WeatherRoot> GetWeather(string location)
         {
-            var client = new HttpClient();
-            var url = string.Format(APIUrl, location);
-            var json = await client.GetStringAsync(url);
+            try
+            {
+                var client = new HttpClient();
+                var url = string.Format(APIUrl, location);
+                var json = await client.GetStringAsync(url);
 
-            if (string.IsNullOrWhiteSpace(json))
+                if (string.IsNullOrWhiteSpace(json))
+                    return null;
+
+                // Deserialize the JSON results into a WeatherRoot object using JSON.NET
+                return JsonConvert.DeserializeObject<WeatherRoot>(json);
+            }
+            catch (Exception ex)
+            {
+                // Oops! Something went wrong with the API call
                 return null;
-
-            // Deserialize the JSON results into a WeatherRoot object using JSON.NET
-            return JsonConvert.DeserializeObject<WeatherRoot>(json);
+            }
         }
     }
 }

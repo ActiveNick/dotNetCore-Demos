@@ -15,7 +15,12 @@ namespace OpenWeatherMap
 
 	public class Sys
 	{
-		[JsonProperty("message")]
+        [JsonProperty("type")]
+        public int type { get; set; }
+
+        public int id { get; set; }
+
+        [JsonProperty("message")]
 		public double message { get; set; }
 
 		[JsonProperty("country")]
@@ -45,7 +50,7 @@ namespace OpenWeatherMap
 		public double Temp { get; set; }
 
 		[JsonProperty("pressure")]
-		public int Pressure { get; set; }
+		public double Pressure { get; set; }
 
 		[JsonProperty("temp_min")]
 		public double MinimumTemp { get; set; }
@@ -54,7 +59,7 @@ namespace OpenWeatherMap
 		public double MaximumTemp { get; set; }
 
 		[JsonProperty("humidity")]
-		public int Humidity { get; set; }
+		public double Humidity { get; set; }
 	}
 
 	public class Wind
