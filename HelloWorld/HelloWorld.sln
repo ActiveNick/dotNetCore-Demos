@@ -14,6 +14,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloWorld", "src\HelloWorl
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloWorld-Lib", "src\HelloWorld-Lib\HelloWorld-Lib.xproj", "{63855043-F617-4993-AECE-2C4728794A0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeatherMap-PCL", "OpenWeatherMap-PCL\OpenWeatherMap-PCL.csproj", "{08BF50EA-F17A-4B75-A1C7-92BF0D385F88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{63855043-F617-4993-AECE-2C4728794A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63855043-F617-4993-AECE-2C4728794A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63855043-F617-4993-AECE-2C4728794A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BF50EA-F17A-4B75-A1C7-92BF0D385F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BF50EA-F17A-4B75-A1C7-92BF0D385F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BF50EA-F17A-4B75-A1C7-92BF0D385F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BF50EA-F17A-4B75-A1C7-92BF0D385F88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,5 +41,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4FE066AF-27BC-471E-B703-362CE9BF203C} = {A6C25735-40E1-4AE8-BBD1-916D2E51B12A}
 		{63855043-F617-4993-AECE-2C4728794A0D} = {A6C25735-40E1-4AE8-BBD1-916D2E51B12A}
+		{08BF50EA-F17A-4B75-A1C7-92BF0D385F88} = {A6C25735-40E1-4AE8-BBD1-916D2E51B12A}
 	EndGlobalSection
 EndGlobal

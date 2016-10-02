@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "exports": {
+    "OpenWeatherMap-PCL/1.0.0": {
+      "type": "project",
+      "framework": ".NETStandard,Version=v1.4",
+      "compile": {
+        "bin/Debug/OpenWeatherMap-PCL.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/OpenWeatherMap-PCL.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/OpenWeatherMap-PCL.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}
