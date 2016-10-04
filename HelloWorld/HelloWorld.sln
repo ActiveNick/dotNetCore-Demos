@@ -14,7 +14,7 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloWorld", "src\HelloWorl
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloWorld-Lib", "src\HelloWorld-Lib\HelloWorld-Lib.xproj", "{63855043-F617-4993-AECE-2C4728794A0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeatherMap-PCL", "OpenWeatherMap-PCL\OpenWeatherMap-PCL.csproj", "{08BF50EA-F17A-4B75-A1C7-92BF0D385F88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeatherMap-PCL", "src\OpenWeatherMap-PCL\OpenWeatherMap-PCL.csproj", "{08BF50EA-F17A-4B75-A1C7-92BF0D385F88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

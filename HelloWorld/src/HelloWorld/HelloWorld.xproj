@@ -16,7 +16,7 @@
     <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\OpenWeatherMap-PCL\OpenWeatherMap-PCL.csproj" />
+    <ProjectReference Include="..\OpenWeatherMap-PCL\OpenWeatherMap-PCL.csproj" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>
